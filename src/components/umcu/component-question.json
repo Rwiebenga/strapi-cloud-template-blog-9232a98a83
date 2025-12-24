@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_umcu_component_questions",
+  "info": {
+    "displayName": "Component Question"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Radiobutton",
+        "Checkbox",
+        "Dropdown"
+      ]
+    },
+    "Answers": {
+      "type": "component",
+      "component": "umcu.component-answer",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carepaths",
+  "info": {
+    "singularName": "carepath",
+    "pluralName": "carepaths",
+    "displayName": "Carepath"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Illness": {
+      "type": "component",
+      "component": "umcu.component-illness",
+      "repeatable": true
+    }
+  }
+}

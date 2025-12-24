@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paragraphs",
+  "info": {
+    "singularName": "paragraph",
+    "pluralName": "paragraphs",
+    "displayName": "Paragraph"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "DynamicContent": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.rich-text",
+        "shared.media",
+        "umcu.component-form"
+      ]
+    }
+  }
+}

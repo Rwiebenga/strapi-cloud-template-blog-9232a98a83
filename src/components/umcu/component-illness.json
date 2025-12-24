@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_umcu_component_illnesses",
+  "info": {
+    "displayName": "Component Illness"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Chapters": {
+      "type": "component",
+      "component": "umcu.component-chapter",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

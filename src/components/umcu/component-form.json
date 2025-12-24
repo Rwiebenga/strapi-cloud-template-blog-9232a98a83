@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_umcu_component_forms",
+  "info": {
+    "displayName": "Component Form"
+  },
+  "options": {},
+  "attributes": {
+    "Questions": {
+      "type": "component",
+      "component": "umcu.component-question",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

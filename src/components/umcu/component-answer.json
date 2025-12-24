@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_umcu_component_answers",
+  "info": {
+    "displayName": "Component Answer"
+  },
+  "options": {},
+  "attributes": {
+    "Answer": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

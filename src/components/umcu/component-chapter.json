@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_umcu_component_chapters",
+  "info": {
+    "displayName": "Component Chapter"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "RichTextBlocks": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

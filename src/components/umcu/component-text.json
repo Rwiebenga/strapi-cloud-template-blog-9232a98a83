@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_umcu_component_texts",
+  "info": {
+    "displayName": "Component Text"
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}
