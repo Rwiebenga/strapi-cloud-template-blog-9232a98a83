@@ -14,9 +14,6 @@
     "Title": {
       "type": "string"
     },
-    "Content": {
-      "type": "richtext"
-    },
     "DynamicContent": {
       "type": "dynamiczone",
       "components": [
